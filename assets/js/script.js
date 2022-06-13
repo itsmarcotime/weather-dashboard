@@ -11,7 +11,9 @@ var indexEl = document.querySelector("#index");
 var apiFunction = function() {
 
     fetch("http://api.openweathermap.org/geo/1.0/direct?q=" + inputEl.value + "&limit=5&appid=98802acd30e720990862db94022d3f8d")
-    .then(response => response.json).then(data => console.log(data)).catch(err => alert("Enter Valid City"));
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(err => alert("Enter Valid City"));
 
 };
 
