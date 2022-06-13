@@ -1,3 +1,3 @@
 # weather-dashboard
 
-## I am turning in what I have so far. This assignment is still in progress do not want to be late. grade accordantly.
+## I am turning in what I have so far. This assignment is still in progress do not want to be late so turning in what I have now. grade accordantly.. notes: Although I have not cleared the assignmnt I feel like i would know what to do next. I will have to mess with the api link and figure out how convert or get longitude & latitude to resemble a specific city. The api I currently have in my fetch request aprears to be an object with city names & their long & lat cordniates. I THINK i will have to find a way to connect those lat & long info & to their specific city. This way users dont have to look up long & lat cordniates, they can just search the city they want.
