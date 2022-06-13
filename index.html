@@ -22,12 +22,13 @@
     <main>
         
         <div>
+            
 
             <div>
 
                 <label for="search">Search for a City:</label>
-                <input type="text" placeholder="Type a City" id="search-input" class="input" />
-                <button type="submit">Search!</button>
+                <input type="text" placeholder="Type a City" id="search-input" class="input-class" />
+                <button type="submit" id="btn">Search!</button>
 
             </div>
 
@@ -39,8 +40,16 @@
 
         <div>
 
-            <div>
-                <!-- current day stuff here -->
+            <div class="current-temps">
+
+                <h2 class="city" id="cityId"></h2>
+
+                <div class="date" id="dateId"></div>
+                <div class="temp" id="tempId"></div>
+                <div class="humidity" id="humid"></div>
+                <div class="wind" id="windId"></div>
+                <div class="uv-index" id="index"></div>
+
             </div>
 
             <div>
