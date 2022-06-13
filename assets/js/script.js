@@ -10,7 +10,7 @@ var indexEl = document.querySelector("#index");
 //function to call api
 var apiFunction = function() {
 
-    fetch("http://api.openweathermap.org/data/2.5/forecast?q=" + inputEl.value + "id=524901&appid=98802acd30e720990862db94022d3f8d")
+    fetch("http://history.openweathermap.org/data/3.0/history/locations/create?" + indexEl.value + "&appid=98802acd30e720990862db94022d3f8d")
     .then(response => response.json).then(data => console.log(data)).catch(err => alert("Enter Valid City"));
 
 };
